@@ -85,6 +85,7 @@ const Login = () => {
       <View style={styles.bottomView}>
         <Text style={styles.bottomText}>- Developed by Crazy -</Text>
       </View>
+      <Text>alo</Text>
     </SafeAreaView>
   );
 };
