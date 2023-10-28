@@ -8,6 +8,6 @@ function App() {
       <Navigation />
     </NavigationContainer>
   );
-}
+} 
 
 export default App;
