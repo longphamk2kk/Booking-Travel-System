@@ -15,7 +15,7 @@ const BookingScreen = ({navigation, route}) => {
   const {searchParams} = route.params;
   const {room} = route.params;
 
-  console.log(room)
+  console.log(room);
 
   const handleBooking = () => {
     console.log('Booking details:', {
@@ -28,7 +28,7 @@ const BookingScreen = ({navigation, route}) => {
       phoneNumber,
       email,
       searchParams,
-      room
+      room,
     });
   };
 
@@ -63,9 +63,7 @@ const BookingScreen = ({navigation, route}) => {
       </View>
 
       <View style={styles.bookingInfo}>
-        <Text style={styles.bookingInfoText}>
-          Khách sạn: {room.hotelName}
-        </Text>
+        <Text style={styles.bookingInfoText}>Khách sạn: {room.hotelName}</Text>
         <Text style={styles.bookingInfoText}>
           Loại phòng: {room.RoomNumber}
         </Text>
